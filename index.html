@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="cursor_dot" data-cursor-dot></div>
+    <div class="cursor_outline" data-cursor-outline></div>
+<!-- Header -->
+<header>
+    <div class="containernav">
+        <h1>Omkar Raj</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Qualification</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Home Section -->
+<section id="home">
+    <div class="container">
+        <img src="profile.png" alt="Profile Picture" class="profile-pic" />
+        <h2>Hello, I'm <span>Omkar Raj</span></h2>
+        <p>CSE Student | Web Developer | Problem Solver | Java</p>
+        <div class="social-links">
+            <a href="https://github.com/omraj576" target="_blank">GitHub</a>
+            <a href="http://www.linkedin.com/in/omkar-raj-239762275" target="_blank">LinkedIn</a>
+            <a href="https://leetcode.com/u/omkarraj26/" target="_blank">Leetcode</a>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <div class="container">
+        <h2>My Projects</h2>
+        <div class="projects-list">
+            <div class="project-card">
+                <h3>WONDDERLUST</h3>
+                <p> (Html, CSS, Bootstrap, MongoDB, NodeJS, ExpressJS)<br>
+                    Developed a full-stack web application similar to Airbnb, designed for listing and booking hotels and homes.
+                    This platform allows users to list their properties, search for accommodations, and make bookings seamlessly.
+                    Search and Booking: Guests can browse listings, filter by location and price, and book stays.
+                    Reviews and Ratings: Users can review and rate properties.
+                    User Authentication: Secure signup and login using Passport.
+                    Property Listings: Hosts can add properties with details, photos, and pricing</p>
+                <a href="https://github.com/omraj576/WonderLust-first-project-" target="_blank">View Code</a>
+                <a href="https://first-project-a6ub.onrender.com/listing" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Sports E-commerce Website</h3>
+                <p>Frontend and User Authentication clone using HTML, CSS, Node.js, Express.js and JavaScript.<br>
+                    Developed a sports website with user authentication using Node.js, Express.js, and MongoDB, implementing secure login and signup functionality with a responsive frontend built with HTML, CSS, and JavaScript.	</p>
+                <a href="https://github.com/yourgithub/jio-clone" target="_blank">View Code</a>
+            </div>
+            <div class="project-card">
+                <h3>Weather App</h3>
+                <p>(React.js, Material-UI, API call)<br>
+                    Developed a weather forecasting application using React, integrating Weather API for real-time weather data.
+                    Styled the user interface with Material-UI, focusing on a clean, modern, and responsive design.
+                    Implemented features such as city-based weather search, real-time updates, and a user-friendly experience.</p>
+                <a href="https://github.com/yourgithub/finance-visualizer" target="_blank">View Code</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="skills">
+    <div class="container">
+        <h2>Skills</h2>
+        <p>Technical skillset</p>
+        <h3>Html</h3>
+        <h3>Css</h3>
+        <h3>Java</h3>
+        <h3>JavaScript</h3>
+        <h3>React</h3>
+        <h3>NodeJS</h3>
+        <h3>ExpressJS</h3>
+        <h3>MySql</h3>
+        <h3>MongoDB</h3>
+
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your Email" required />
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p id="dateTime"></p>
+        <div class="social-links">
+            <a href="https://github.com/omraj576" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="http://www.linkedin.com/in/omkar-raj-239762275" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://leetcode.com/u/omkarraj26/" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+        <p>&copy; 2025 omkar. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
